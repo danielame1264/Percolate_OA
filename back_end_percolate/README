@@ -7,11 +7,11 @@ nose
 
 
 To run:
-	At root folder(./back_end_rolodex):
+	At root folder(./back_end_percolate):
 	python rolodex/src/rolodex.py -i data.in -o data.out
 
 To test:
-	At root folder(./back_end_rolodex):
+	At root folder(./back_end_percolate):
 	# One test case relies on hardcoded file path, running this elsewhere will get you a file not found error
 	nosetests rolodex/tests/*.py
 
